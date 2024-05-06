@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    background: linear-gradient(90deg,#a0dff8,#ffe4e1);
+}
+
+.logo img{
+    float: left;
+    border-radius: 100%;
+}
+
+#sobre img{
+    border-radius: 100%;
+    float: left;
+}
+
+h1{
+    font-family: Dancing Script, cursive;
+    padding-top: 2%;
+    font-size: 600%;
+}
+
+h2{
+    padding-top: 2%;
+    font-family: Dancing Script, cursive;
+    font-size: 250%;
+}
+
+#sobre p{
+    font-family: Dancing Script, cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 200%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+.chamada{
+    padding-top: 1%;
+    font-size: 150%;
+}
+
+nav{
+    padding-top: 5%;
+    clear: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.massas{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.preços h4{
+    text-align: center;
+}
+
+.branca, .chocolate, .velvet, .recheios, .doces{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+#galeria img{
+    margin-top: 5%;
+    border: solid;
+}
+
+footer, footer a{
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+
+li{
+    font-size: 115%;
+}
+
+li strong{
+    font-size: 120%;
+}
+
+h4{
+    font-size: 150%;
+}
+
+.recheios, .simples, .gourmet, .massas, .preços, .cupcake, .doces{
+    padding-top: 2%;
+}
+
+.mb, .mc, .mv{
+    border: solid;
+}
+
+@media only screen and (max-width:850px) {
+
+    h1{
+       clear: left; 
+       font-size: 450%;
+    }
+
+    .logo img, #sobre img{
+        width: 40%;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .recheios, .doces{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    
+    .massas{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
+    #galeria{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+}
